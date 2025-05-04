@@ -15,12 +15,15 @@ export type ProductCategory =
   | "drones-robots"
   | "retro-tech"
   | "solar-eco"
-  | "cool-weird";
+  | "cool-weird"
+  | "wearable-devices"
+  ;
 
 export const ProductCategoryLabels: Record<ProductCategory, string> = {
   "electric-rides": "Electric Rides",
   "drones-robots": "Drones & Robots",
   "retro-tech": "Retro Tech & Gadgets",
   "solar-eco": "Solar & Eco Products",
-  "cool-weird": "Cool & Weird"
+  "cool-weird": "Cool & Weird",
+  "wearable-devices": "Wearable Devices"
 };

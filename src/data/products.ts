@@ -133,27 +133,8 @@ export const products: Product[] = [
     category: "cool-weird",
     description: "Electronic dice powered by quantum random number generation.",
     featured: true
-  },
-  // {
-  //   id: "dr-003",
-  //   name: "NanoDrone Explorer",
-  //   price: 149.99,
-  //   image: "public/nano.jpg",
-  //   tag: "Pocket-Size",
-  //   category: "drones-robots",
-  //   description: "Ultra-compact drone with HD camera and 15-minute flight time.",
-  //   featured: true
-  // },
-  // {
-  //   id: "se-001",
-  //   name: "SolarFlex Power Bank",
-  //   price: 79.99,
-  //   image: "/placeholder.svg",
-  //   tag: "Sustainable",
-  //   category: "solar-eco",
-  //   description: "Flexible solar panel power bank with 20,000mAh capacity.",
-  //   featured: true
-  // }
+  }
+
 ];
 
 export const getFeaturedProducts = (): Product[] => {

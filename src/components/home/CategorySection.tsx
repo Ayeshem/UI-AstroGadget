@@ -47,6 +47,13 @@ export function CategorySection() {
       icon: <Zap className="h-8 w-8" />,
       color: "from-purple-400/20 to-purple-400/5",
       imageSrc: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60"
+    }, 
+    { 
+      id: "wearable-devices", 
+      name: ProductCategoryLabels["wearable-devices"], 
+      icon: <Zap className="h-8 w-8" />,
+      color: "from-cyan/20 to-cyan/5",
+      imageSrc: "https://images.unsplash.com/photo-1628260630453-da5cf1ff5209?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHdlYXJhYmxlJTIwZGV2aWNlfGVufDB8fDB8fHww"
     }
   ];
 
@@ -55,7 +62,7 @@ export function CategorySection() {
       <div className="container">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Browse By Category</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 gap-4 md:gap-6">
           {categories.map((category) => (
             <Link
               key={category.id}

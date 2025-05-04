@@ -33,7 +33,8 @@ export function Sidebar({ className }: SidebarProps) {
     "drones-robots": <Cpu className="h-5 w-5" />,
     "retro-tech": <Laptop className="h-5 w-5" />,
     "solar-eco": <CloudSun className="h-5 w-5" />,
-    "cool-weird": <Battery className="h-5 w-5" />
+    "cool-weird": <Battery className="h-5 w-5" />,
+    "wearable-devices": <Battery className="h-5 w-5" />
   };
 
   return (
