@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
 import { ProductCategory, ProductCategoryLabels } from "@/lib/types";
-import { Bike, Cpu, Laptop, CloudSun, Zap, Image } from "lucide-react";
+import { Bike, Cpu, Laptop, CloudSun, Zap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
@@ -47,7 +46,7 @@ export function CategorySection() {
       icon: <Zap className="h-8 w-8" />,
       color: "from-purple-400/20 to-purple-400/5",
       imageSrc: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500&auto=format&fit=crop&q=60"
-    }, 
+    },
     { 
       id: "wearable-devices", 
       name: ProductCategoryLabels["wearable-devices"], 
